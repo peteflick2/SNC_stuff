@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Property" max_length="40" name="x_15316_rpt_property" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="State" max_length="2" name="state" type="string"/>
+        <element display="true" label="Street" mandatory="true" max_length="40" name="street" type="string"/>
+        <element label="Suite or Apt Number" max_length="40" name="suite_or_apt_number" type="string"/>
+        <element label="Zip" max_length="5" name="zip" type="string"/>
+    </element>
+</database>
